@@ -1,0 +1,8 @@
+<launch>
+  <!-- Joystick Input Node -->
+  <include file="$(find elyir_robotix)/launch/drive_teleop.launch"/>
+  <!-- Multiplex Motor Commands Node -->
+  <include file="$(find elyir_robotix)/launch/cmd_vel_mux.launch"/>
+  <!-- Simple Drive Node -->
+  <include file="$(find elyir_robotix)/launch/elyir_robotix.launch"/>
+</launch>
