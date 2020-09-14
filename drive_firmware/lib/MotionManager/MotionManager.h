@@ -1,7 +1,7 @@
 
 #ifndef _ELYIR_MOTION_MGR_
 #define _ELYIR_MOTION_MGR_
-void motion_mgr_setup();
+void motion_mgr_setup(uint8_t logLevel);
 void motion_mgr_run();
 
 void motion_mgr_turnLeft();

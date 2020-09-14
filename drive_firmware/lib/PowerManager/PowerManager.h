@@ -3,7 +3,7 @@
 
 void power_mgr_getBatteryVoltage();
 void power_mgr_getChargerVoltage();
-void power_mgr_setup(bool debug);
+void power_mgr_setup(int logLevel);
 void power_mgr_run();
 
 #endif

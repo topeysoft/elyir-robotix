@@ -8,9 +8,15 @@ find_package(catkin REQUIRED COMPONENTS
   geometry_msgs
   actionlib_msgs
   std_msgs
+  message_generation
 )
 
 catkin_python_setup()
+
+add_message_files(
+  FILES
+  pwr_status.msg
+)
 
 catkin_package(
   LIBRARIES ${PROJECT_NAME}
